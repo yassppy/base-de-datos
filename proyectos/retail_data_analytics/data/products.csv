@@ -1,0 +1,21 @@
+product_id,product_name,category,price,stock,supplier,created_at
+1,Laptop Dell 15",Electronics,2500.00,10,TechStore,2023-01-01
+2,  Mouse Logitech  ,electronics,45.50,150,TechStore,2023-01-05
+3,TECLADO MECANICO,Electronics,180.00,,TechStore,2023-01-10
+4,Monitor LG 24,Electronics,-350.00,25,LG Perú,05/01/2023
+5,Auriculares Sony,Electronics,220.00,60,Sony Perú,2023-02-01
+6,Silla Gamer,  Furniture  ,850.00,8,MueblesPro,2023-02-10
+7,silla gamer,Furniture,850.00,8,MueblesPro,2023-02-10
+8,Escritorio Oficina,furniture,620.00,15,MueblesPro,2023-02-15
+9,Libreta A4,Stationery,12.50,500,PapeleriaMax,2023-03-01
+10,  LAPICERO AZUL  ,stationery,2.50,1000,PapeleriaMax,2023-03-05
+11,Mochila Ejecutiva,Accessories,185.00,-20,BagsPeru,2023-03-10
+12,Cargador USB-C,Electronics,35.00,200,TechStore,2023/03/15
+13,Webcam HD,Electronics,150.00,NULL,TechStore,2023-04-01
+14,Parlante Bluetooth,electronics,95.00,75,SoundPeru,01/04/2023
+15,Mousepad XL,Accessories,55.00,120,TechStore,2023-04-10
+16,Lámpara LED,Furniture,78.00,45,LuzPeru,2023-04-15
+17,lampara led,Furniture,78.00,45,LuzPeru,2023-04-15
+18,Cable HDMI 2m,Electronics,,300,TechStore,2023-05-01
+19,Tablet Samsung,Electronics,1200.00,30,Samsung Perú,2023-05-10
+20,Audífonos JBL,Electronics,320.00,55,JBL Perú,2023/05/20

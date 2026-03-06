@@ -1,0 +1,21 @@
+customer_id,first_name,last_name,email,phone,city,country,age,registration_date
+1,Juan,Pérez,juan.perez@gmail.com,+51 987654321,Lima,Peru,28,2023-01-15
+2,  MARIA  ,LOPEZ,MARIA.LOPEZ@GMAIL.COM,987-654-322,lima,peru,35,15/01/2023
+3,juan,pérez,juan.perez@gmail.com,+51987654321,LIMA,PERU,,2023-01-15
+4,Pedro,,pedro@hotmail.com,N/A,Arequipa,Peru,22,2023-02-01
+5,Ana,Gómez,ana.gomez@,+51 912345678,Cusco,Peru,29,2023-02-10
+6,CARLOS,RUIZ,carlos.ruiz@yahoo.com,912345679,  cusco  ,peru,45,10-02-2023
+7,Lucia,Torres,lucia.torres@gmail.com,+51912345680,Trujillo,Peru,-5,2023-03-05
+8,,Vargas,vargas@gmail.com,912345681,trujillo,Peru,31,2023-03-05
+9,Roberto,Sánchez,roberto@gmail.com,000000000,Lima,Peru,999,2023/04/01
+10,sofia,mendoza,sofia.mendoza@gmail.com,+51 912345682,Lima,  Peru  ,26,2023-04-15
+11,  ANDRES  ,FLORES,andres.flores@gmail.com,912345683,Lima,Peru,33,2023-04-20
+12,Carmen,NULL,carmen@hotmail.com,912345684,Arequipa,Peru,41,2023-05-01
+13,Luis,Herrera,luis.herrera@,912345685,Lima,Peru,38,2023-05-10
+14,Valentina,Cruz,valentina.cruz@gmail.com,+51912345686,Lima,Peru,27,2023/05/20
+15,JORGE,MEDINA,JORGE.MEDINA@GMAIL.COM,N/A,cusco,peru,52,2023-06-01
+16,Paola,Rios,paola.rios@gmail.com,912345688,Lima,Peru,,01/06/2023
+17,Miguel,Castro,miguel@gmail.com,912345689,  Lima  ,Peru,23,2023-06-15
+18,Diana,Ortega,diana.ortega@gmail.com,912345690,Lima,Per,36,2023-07-01
+19,Fernando,Vega,fernando.vega@gmail.com,912345691,AREQUIPA,PERU,44,2023-07-10
+20,isabela,Reyes,isabela.reyes@gmail.com,000000000,Lima,Peru,30,2023-07-20

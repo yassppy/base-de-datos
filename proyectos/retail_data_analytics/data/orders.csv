@@ -1,0 +1,26 @@
+order_id,customer_id,order_date,total_amount,status,payment_method,shipping_city,notes
+1,1,2023-08-01,2500.00,completed,credit_card,Lima,
+2,2,2023-08-02,45.50,COMPLETED,Credit Card,lima,Entrega urgente
+3,3,2023-08-02,45.50,completed,credit_card,Lima,Mismo cliente duplicado
+4,4,01/08/2023,180.00,pending,  cash  ,Arequipa,
+5,5,2023-08-05,-220.00,completed,debit_card,Cusco,
+6,6,2023-08-06,850.00,Completed,Credit_Card,cusco,
+7,7,2023-08-07,,shipped,cash,Trujillo,Sin monto registrado
+8,8,2023-08-08,620.00,SHIPPED,Debit Card,trujillo,
+9,9,2023-08-10,12.50,cancelled,cash,Lima,
+10,10,2023/08/11,2.50,Cancelled,CASH,Lima,
+11,11,2023-08-12,185.00,completed,credit_card,Lima,
+12,12,2023-08-13,35.00,refunded,debit_card,Arequipa,
+13,13,2023-08-14,150.00,REFUNDED,credit_card,Lima,
+14,14,2023-08-15,95.00,completed,Credit Card,Lima,
+15,15,15/08/2023,55.00,pending,cash,Cusco,
+16,99,2023-08-16,78.00,completed,debit_card,Lima,Cliente no existe
+17,1,2023-08-17,320.00,completed,credit_card,  Lima  ,
+18,2,2023-08-18,1200.00,COMPLETED,CREDIT_CARD,Lima,
+19,3,2023-08-19,-50.00,pending,cash,Lima,Monto negativo
+20,4,2023-08-20,null,shipped,debit_card,Arequipa,
+21,5,2023-08-21,440.00,completd,credit_card,Cusco,Typo en status
+22,6,2023-08-22,180.00,completed,transferencia,Trujillo,
+23,7,23/08/2023,75.00,completed,cash,Lima,
+24,8,2023-08-24,2500.00,completed,credit_card,Lima,
+25,NULL,2023-08-25,350.00,pending,debit_card,Lima,Sin customer_id
