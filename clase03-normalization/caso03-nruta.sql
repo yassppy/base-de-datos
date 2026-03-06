@@ -1,0 +1,64 @@
+CREATE DATABASE RutaVentasDB
+GO
+USE RutaVentasDB
+GO
+
+CREATE TABLE CLIENTE (
+IDCliente INT IDENTITY(1,1) PRIMARY KEY,
+RucCliente VARCHAR(11) UNIQUE NOT NULL,
+NombreEmpresaCliente VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE PRODUCTO (
+IDProducto INT IDENTITY(1,1) PRIMARY KEY,
+CodigoProducto VARCHAR(20) UNIQUE NOT NULL,
+DescripcionProducto VARCHAR(255) NOT NULL,
+UnidadProducto VARCHAR(50)
+);
+
+CREATE TABLE FACTURA (
+IDFactura INT IDENTITY(1,1) PRIMARY KEY,
+IDCliente INT NOT NULL,
+SerieFactura CHAR(4),
+NumeroFactura VARCHAR(10),
+RucFactura VARCHAR(11),
+FechaEmision DATE,
+TipoMoneda VARCHAR(10),
+Observacion VARCHAR(MAX),
+SubTotal DECIMAL(18,2),
+Igv DECIMAL(18,2),
+ImporteTotal DECIMAL(18,2),
+FOREIGN KEY (IDCliente) REFERENCES CLIENTE(IDCliente)
+);
+
+CREATE TABLE DETALLE_FACTURA (
+IDDetalle INT IDENTITY(1,1) PRIMARY KEY,
+IDFactura INT NOT NULL,
+IDProducto INT NOT NULL,
+CantidadProducto DECIMAL(18,2),
+ValorUnitarioPro DECIMAL(18,2),
+FOREIGN KEY (IDFactura) REFERENCES FACTURA(IDFactura),
+FOREIGN KEY (IDProducto) REFERENCES PRODUCTO(IDProducto)
+);
+
+INSERT INTO CLIENTE (RucCliente, NombreEmpresaCliente)
+VALUES ('20501596397', 'EMPRESA AGROINDUSTRIAL LA PUNTA S.A.C.');
+
+INSERT INTO PRODUCTO (CodigoProducto, DescripcionProducto, UnidadProducto)
+VALUES
+('757557', 'FILTRO DE AIRE', 'UNIDAD'),
+('575', 'KIT ARRASTRE', 'UNIDAD'),
+('7557', 'CABLE EMBRAGUE', 'UNIDAD');
+
+INSERT INTO FACTURA (IDCliente, SerieFactura, NumeroFactura, RucFactura, FechaEmision, TipoMoneda, Observacion, SubTotal, Igv, ImporteTotal)
+VALUES (1, 'E001', '5909', '20610320351', '2025-12-16', 'SOLES', 'DEPOSITO EN CUENTA', 119.49, 21.51, 141.00);
+
+INSERT INTO DETALLE_FACTURA (IDFactura, IDProducto, CantidadProducto, ValorUnitarioPro)
+VALUES
+(1, 1, 3.00, 12.71),
+(1, 2, 1.00, 63.55),
+(1, 3, 3.00, 5.93);
+
+GO
+
+SELECT * FROM FACTURA

@@ -20,6 +20,10 @@ Vamos a ver las 3 etapas del diseño de base de datos.
 - Modelo lógico  
 - Modelo físico 
 
+### Clase 3️⃣: Normalización
+
+Vemos las 3 formas normales más utilizadas.
+
 ---
 
 ## 📚 Recuros
