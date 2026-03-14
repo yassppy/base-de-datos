@@ -10,22 +10,21 @@ Bienvenido. Aquí encontrarás el contenido de las clases, donde comenzaremos de
 
 ## 📚 Contenido
 
-### Clase 1️⃣: Introducción
-Origen de las bases de datos y su importancia en la actualidad.
+### Clases
+- **Clase 01** — Importancia del SQL en el mundo actual
+- **Clase 02** — Diseño de bases de datos: modelo conceptual, lógico y físico
+- **Clase 03** — Normalización de bases de datos
+- **Clase 04** — SQL Server: DML, DDL, JOINs y uso de consola
 
-### Clase 2️⃣: Diseño de base de datos
+### Ejercicios
+- **Murder Mystery** — Resolución de un caso policial usando consultas SQL para identificar al asesino y al autor intelectual.
 
-Vamos a ver las 3 etapas del diseño de base de datos.
-- Modelo conceptual  
-- Modelo lógico  
-- Modelo físico 
-
-### Clase 3️⃣: Normalización
-
-Vemos las 3 formas normales más utilizadas.
+### Proyectos
+- **Retail Data Analytics** — ETL desarrollado íntegramente en SQL Server.
 
 ---
 
 ## 📚 Recuros
 
 - Plataformas utilizadas para el diseño de DB: https://app.chartdb.io/
+- Caso de sql: https://mystery.knightlab.com/
