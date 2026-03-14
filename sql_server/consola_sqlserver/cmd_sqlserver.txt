@@ -1,0 +1,17 @@
+# En el CMD a veces los equipos no tienen sql server instalados en la máquina y solamente esta en la principal.
+HP> sqlcmd -S localhost -E
+1> SELECT name FROM sys.databases;
+2> GO
+
+# Ver tablas
+1> USE JavierPradoClinic
+2> GO
+3> SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE';
+4> GO
+
+# Ver campos
+1> SELECT COLUMN_NAME, DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'Specialty' AND TABLE_SCHEMA = 'HR';
+2> GO
+
+# Consultas
+1> SELECT * FROM HR.Specialty;
